@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form - registration</title>
+</head>
+<body style="background-color: beige;">
+    <h1 style ="center">REGISTRATION FORM</h1>
+    <form align="center" action="post">
+         <label for="username" >USERNAME:</label>
+         <input type="text"  id="username" placeholder="Enter your Username">
+    </form>
+    <div align="center">
+    <label for="class">CLASS:</label>
+    <select name="class" id="class">
+        <option value="BCA-I">BCA-I</option>
+        <option value="BCA-II">BCA-II</option>
+        <option value="BCA-III">BCA-III</option>
+    </select>  
+    </div>
+    <div align="center">
+        <label>GENDER:</label>
+        <input type="radio" name="female" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="Male" id="Male" value="Male">
+        <label for="Male">Male</label>
+    </div>
+    <div align="center">
+        <label>SUBJECTS:</label>
+    
+        <input type="checkbox" name="Dsa" id="dsa">
+        <label for="dsa">Data Structure Algorathm</label><br>
+        <input type="checkbox" name="frontend" id="frontend">
+        <label for="frontend">Front-end</label><br>
+        <input type="checkbox" name="computerGraphics" id="cg">
+        <label for="cg">Computer Graphics</label>
+    </div><br>
+    <div align="center">
+        <button style="background-color: rgb(186, 142, 228); ">Submit</button>
+    </div>
+</body>
+</html>
