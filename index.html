@@ -6,11 +6,11 @@
     <title>form - registration</title>
 </head>
 <body style="background-color: beige;">
-    <h1 style ="center">REGISTRATION FORM</h1>
+    <h1 align ="center">REGISTRATION FORM</h1>
     <form align="center" action="post">
          <label for="username" >USERNAME:</label>
          <input type="text"  id="username" placeholder="Enter your Username">
-    </form>
+    </form><br>
     <div align="center">
     <label for="class">CLASS:</label>
     <select name="class" id="class">
@@ -18,24 +18,29 @@
         <option value="BCA-II">BCA-II</option>
         <option value="BCA-III">BCA-III</option>
     </select>  
-    </div>
+    </div><br>
     <div align="center">
         <label>GENDER:</label>
-        <input type="radio" name="female" id="female" value="female">
+        <input type="radio" name="gender" id="female" value="female">
         <label for="female">Female</label>
-        <input type="radio" name="Male" id="Male" value="Male">
+        <input type="radio" name="gender" id="Male" value="Male">
         <label for="Male">Male</label>
-    </div>
+    </div><br>
     <div align="center">
         <label>SUBJECTS:</label>
     
-        <input type="checkbox" name="Dsa" id="dsa">
+        <input type="checkbox" name="subjects" id="dsa">
         <label for="dsa">Data Structure Algorathm</label><br>
-        <input type="checkbox" name="frontend" id="frontend">
+        <input type="checkbox" name="subjects" id="frontend">
         <label for="frontend">Front-end</label><br>
-        <input type="checkbox" name="computerGraphics" id="cg">
+        <input type="checkbox" name="subjects" id="cg">
         <label for="cg">Computer Graphics</label>
     </div><br>
+    <div align="center">
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" placeholder="Enter Password here..." required>
+    </div>
+    <br>
     <div align="center">
         <button style="background-color: rgb(186, 142, 228); ">Submit</button>
     </div>
