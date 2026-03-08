@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS overflow</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            width: 50vw;
+            height: 10vh;
+            overflow: scroll;
+
+            /* white-space: nowrap ka mtlb hota h scroll horizontal m hi rahe ga bs */
+            white-space: nowrap;
+
+            /* text overflow: ellipsis ka mtlb h box m text ke end m dotted line aa jaye gi pr fr text show nhi hoga scroll krke */
+            /* text-overflow: ellipsis; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor ipsum quis ducimus iusto veniam dignissimos iste fuga, voluptatem aperiam, inventore perferendis, maiores aliquam minima nulla expedita? Fugiat, quod nam. Facilis illo ex possimus est nulla incidunt harum, earum praesentium rerum commodi modi id sequi nisi nostrum fugit, nobis blanditiis cupiditate nesciunt in laboriosam. Iste, ducimus odio!
+    </div>
+</body>
+</html>
