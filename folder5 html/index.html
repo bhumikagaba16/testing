@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card CSS</title>
     <style>
-        *{
+        /* universal style :- *{} */
+        * {
             margin: 0;
             padding: 0;
         }
-        .box{
+
+        .box {
             margin: 32px;
-            width: 550px;
-            height: 780px;
+            width: 350px;
+            height: 500px;
             border: 2px solid black;
-            
+
             /* border ko curve deta h side m se */
-            border-radius: 15px; 
-        }
-        
-        .box1{
-           padding: 4px;
-           width: 540px;
-           border-radius: 15px;
+            border-radius: 15px;
         }
 
-        .box3{
-            margin: 3px;
+        .box1 {
+            padding: 4px;
+            width: 340px;
+            height: 244px;
+            border-radius: 15px;
+        }
+
+        .box3 {
+            margin: 7px;
             text-transform: capitalize;
-            padding: 10px;
+            padding: 3px 13px;
             border: 2px solid gray;
             border-radius: 15px;
         }
 
-        .box2{
-            padding: 18px;
-            margin: 3px;
+        .box2 {
+            padding: 6px;
+            margin: 5px;
             text-shadow: 4px 4px 5px rgb(155, 150, 150);
-
         }
 
-        .box4{
+        .box4 {
             padding: 5px;
             margin: 3px;
         }
-        div button{
+
+        div button {
             border: 2px solid rgb(14, 14, 160);
             margin: 3px;
             padding: 5px;
             border-radius: 20px;
             box-shadow: 4px 4px 17px rgb(14, 14, 160);
-           chilkana road 
+            text-align: center;
+
         }
     </style>
 </head>
+
 <body>
     <div class="box">
         <img class="box1" src="https://i.pinimg.com/originals/90/86/7f/90867f34d49f3326a2078585545536e3.jpg" alt="img">
-      <div>
-        <span class="box3">nauka</span>
-      <span class="box3">boat</span>
+        <div>
+            <span class="box3">nauka</span>
+            <span class="box3">boat</span>
         </div>
         <div>
             <h1 class="box2"><b>NAUKA VIHAR</b></h1>
         </div>
         <div>
-            <p class="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, hic, nisi velit totam magni exercitationem deleniti quas commodi ad esse, inventore ratione similique?</p>
+            <p class="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, hic, nisi velit totam
+                magni exercitationem deleniti quas commodi ad esse, inventore ratione similique?</p>
         </div>
         <div>
             <button>read more</button>
         </div>
     </div>
 </body>
+
 </html>
