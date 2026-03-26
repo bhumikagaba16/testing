@@ -11,17 +11,41 @@
         body{
             background-color: red;
         }
-        @media only screen and (max-width:455px){
+        @media only screen and (orientation: landscape){
+            body{
+                border: 2px solid purple;
+            }
+        }
+        @media only screen and (max-width:455px)
+        /* @media only screen and (min-width:455px) */
+        { 
             body{
                 background-color: blue;
+            }
+            .boxes{
+                flex-direction: column;
             }
         }
         /* media not|only mediatype and (expression){
         CSS code;
         } */
+         .boxes{
+            display: flex;
+         }
+         .box{
+            background-color: aqua;
+            width: 344px;
+            height: 344px;
+            padding: 3px;
+            margin: 3px;
+         }
     </style>
  </head>
  <body>
     <div>hyy how are you</div>
+    <div class="boxes">
+    <div class="box"></div>
+    <div class="box"></div>
+    </div>
  </body>
  </html>
