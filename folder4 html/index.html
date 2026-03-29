@@ -3,78 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>float & clear</title>
     <style>
-        /* div{
-            background-color: bisque;
-        } */
-
-        /* class selector */
-        .red{
-            
-            background-color: red;
-            color: white;
+        .boxes{
+            border: 2px solid black;
+            display: flow-root;
         }
-
-        /* id selector */
-        #blue{
-            background-color: yellow;
-            color: red;
+        img{
+            float: right;
         }
-        /* child selector */
-        div > p{
-            background-color: brown;
-            color: beige;
+        .box{
+            border: 2px solid red;
         }
-
-        /* desendent selector */
-        div p{
-            background-color: brown;
-            color: bisque;
-        }
-        /* universal selector */
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        /* pseudo selector */
-        a:visited{
-            color: brown;
-        }
-        a:link{
-            color: green;
-        }
-        a:active{
-            background-color: red;
-        }
-        a:hover{
-            background-color: yellow;
-        }
-
-        p:first-child{
+        .box:nth-child(3){
             background-color: aqua;
+            clear: right;
         }
     </style>
 </head>
 <body>
-    <main class="one">
-        <p>i am first</p>
-        <p>i am second</p>
-    </main>
-    <div class="red">
-        this is div tag
+    <div class="boxes">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.uyEILoXjaFV66Lc072w4cgHaEK?pid=Api&P=0&h=180" alt="" width="250">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa, beatae debitis voluptatem quaerat nostrum, id ut consectetur, reprehenderit aliquid qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quidem iusto? Temporibus voluptas mollitia cum, odit nam laboriosam sed in rerum necessitatibus saepe! Voluptas ex inventore nisi corporis atque architecto? Magnam omnis tempora inventore tenetur illo facilis mollitia illum fugit eius incidunt, doloremque consectetur nostrum.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod cum architecto sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia error reiciendis facere dolore. Fugit delectus quod illum perferendis maiores sapiente error, officiis qui adipisci corporis, consectetur nulla, in commodi quos dolorum rem! Hic, deserunt.</div>
+        <div class="box">card3  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident temporibus corrupti possimus, obcaecati architecto rem maiores pariatur quisquam illum, similique eum incidunt corporis eaque natus voluptates ex consectetur alias, esse tempora non. Nobis amet dolore deserunt ducimus commodi praesentium, porro eaque. Quis nam a, eveniet cupiditate dignissimos in, veniam libero saepe sunt optio facilis fugiat modi perferendis, eius magnam consequatur deserunt architecto odio laborum harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum unde ipsam ea voluptatum dolore a quod iusto aut tempore sint natus pariatur alias, voluptatibus vel. Sequi atque, voluptas quae pariatur placeat dolor harum fugiat in. Dolore a inventore dolorem exercitationem eos sed? Doloremque delectus molestiae obcaecati, voluptatum veniam quibusdam fuga nihil at aperiam nemo, id, sapiente odio impedit fugit adipisci. Libero, dolores, officia vel quisquam laboriosam assumenda quasi atque dolor ipsam, placeat expedita eos temporibus blanditiis pariatur.</div>
     </div>
-    <div id="blue">
-        this is div tag second
-        <article>
-            <p>para inside second div</p>
-        </article>
-    </div>
-    <div class="red">
-        this is div tag third
-        <p>this is paragraph inside the div</p>
-    </div>
-    <a href="https://www.google.com" target="_blank">Visit to google</a>
-    <a href="https://www.youtube.com/watch?v=1cEG1T8beO4" target="_blank">Visit to CWH</a>
 </body>
 </html>
