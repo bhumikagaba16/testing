@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web page</title>
     <style>
-nav{
-    padding: 19px 0px;
-    align-self: flex-end;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+    </style>
+    <style>
+        :root {
+            --primary-color: rgb(28, 138, 28);
+            --text-color: white;
+            --secondary-color: rgb(71, 221, 71);
+            --bg-color: rgb(42, 160, 95);
+            --bg-box-color: rgb(82, 163, 82);
+        }
+
+        body {
+            background-color: var(--secondary-color);
+
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        nav {
+            padding: 29px 10px;
+            background-color: var(--primary-color);
+            font-family: "Google Sans", sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
 
         ul li {
-            padding: 30px ;
+            padding: 30px;
             list-style: none;
             display: inline;
         }
 
-        ul li a{
+        ul li a {
             text-decoration: none;
+            color: var(--text-color);
         }
 
-        .boxes{
+        .boxes {
+            display: flex;
+            margin: 10px 10px;
             border: 2px solid black;
-            height: 323px;
-            width: 323px;
+            height: 80vh;
+            background-color: var(--bg-color);
+            border-radius: 25px;
+        }
+
+        .box {
+
+            margin: 50px 130px;
+            border: 2px solid black;
+            height: 400px;
+            width: 400px;
+            background-color: var(--bg-box-color);
+             border-radius: 25px;
+        }
+        
+        .boxes2{
+            border: 2px solid black;
+            height: 250px;
+            margin: 5px 10px;
+            font-family: "Google Sans", sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            text-align: center;
+            padding: 50px;
+            font-size: medium;
+             border-radius: 25px;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+             border-radius: 25px;
         }
     </style>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -38,11 +96,15 @@ nav{
     </nav>
     <div class="boxes">
         <div class="box">
-
+<img  src="https://tse2.mm.bing.net/th/id/OIP.G37tgeQqSNt7v2oPfj9ltQHaE7?pid=Api&P=0&h=180" alt="">
         </div>
         <div class="box">
-
+<img src="https://tse4.mm.bing.net/th/id/OIP.PikUdeXdPP5f3FAwKZYtlQHaJQ?pid=Api&P=0&h=180" alt="">
         </div>
     </div>
+    <div class="boxes2">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore velit modi totam maiores minus excepturi blanditiis suscipit maxime mollitia accusamus porro explicabo ratione voluptatibus quibusdam iusto perferendis eveniet quae, at libero! Ipsa reiciendis nostrum rerum quae, nam alias. Natus illum fugit voluptatibus facilis ad et, obcaecati quasi ullam, vitae culpa odit unde iusto quisquam, dolor nulla dolore laudantium numquam veniam esse accusamus magni sit. Asperiores, nostrum! Sit ipsa ducimus aperiam voluptate distinctio, vel quaerat, alias quisquam commodi eaque exercitationem quas, ut dolore at veniam officiis odit.</p>
+    </div>
 </body>
+
 </html>
