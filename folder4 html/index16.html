@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS transform</title>
     <style>
         .container {
             height: 100vh;
@@ -16,7 +16,22 @@
             height: 40px;
             width: 60px;
             border: 2px solid red;
-
+            background-color: bisque;
+            /* transform: rotate(40deg);  for rotation */
+            /* transform: rotate(0.25turn);  */
+            /* transform: rotateX(56deg); */
+            /* transform: skew(5deg); for streching from side */
+            /* transform: scale(2); for scaling the size */
+            /* transform: scaleX(1.7); */
+            /* scew can apply on x-axis and y-axis but it can't apply on z-axis. */
+            /* transform: translate(30%); for translate or to move it */
+            /* transform: translateY(50%); this is for y-axis */
+            
+            /* now if we have to apply more than 1 property in transform so we do:- */
+            transform: translateX(50%) skew(8deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
         }
     </style>
